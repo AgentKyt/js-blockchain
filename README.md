@@ -147,7 +147,7 @@ curl http://localhost:3000/
 | 7  | No block size/tx limit                     | ✅     | Spam/DoS possible (now fixed)                             |
 | 8  | Multiple coinbase tx allowed               | ✅     | Only one per block allowed                                |
 | 9  | No re-validation on mining                 | ✅     | Transactions re-validated before block inclusion          |
-| 10 | Static difficulty                          | ❌     | Difficulty adjusts only on halving, not by block time     |
+| 10 | Static difficulty                          | ✅     | Difficulty adjusts only on halving, not by block time     |
 | 11 | No genesis block reward                    | —      | Not a security risk, just a limitation                    |
 | 12 | No integer overflow checks                 | ✅     | Negative balances/bugs prevented (now fixed)              |
 | 13 | Mining logic inefficient                   | ❌     | Not realistic, easy to manipulate                         |
